@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling for table */
+#employeeTableContainer {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 768px) {
+    #employeeTableContainer {
+        width: 100%;
+        padding: 10px;
+    }
+}
